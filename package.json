@@ -1,0 +1,20 @@
+{
+    "name": "open-chrome",
+    "version": "1.0.0",
+    "description": "open chrome",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thx/open-chrome.git"
+    },
+    "author": "chongzhi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/thx/open-chrome/issues"
+    },
+    "homepage": "https://github.com/thx/open-chrome#readme"
+  }
+  
