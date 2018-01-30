@@ -1,20 +1,22 @@
 {
-    "name": "auto-open-chrome",
-    "version": "1.0.2",
-    "description": "auto open chrome",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/thx/auto-open-chrome.git"
-    },
-    "author": "chongzhi",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/thx/auto-open-chrome/issues"
-    },
-    "homepage": "https://github.com/thx/auto-open-chrome#readme"
+  "name": "auto-open-chrome",
+  "version": "1.0.3",
+  "description": "auto open chrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thx/auto-open-chrome.git"
+  },
+  "author": "chongzhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thx/auto-open-chrome/issues"
+  },
+  "homepage": "https://github.com/thx/auto-open-chrome#readme",
+  "devDependencies": {
+    "opn": "^5.2.0"
   }
-  
+}

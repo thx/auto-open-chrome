@@ -1,5 +1,6 @@
 const execSync = require('child_process').execSync
 const path = require('path')
+const opn = require('opn')
 
 module.exports = function (openUrl) {
     //自动打开浏览器访问
@@ -9,6 +10,7 @@ module.exports = function (openUrl) {
             cwd: __dirname
         })
     } catch (e) {
-        execSync(`open ${openUrl}`)
+        opn(openUrl)
+        // execSync(`open ${openUrl}`)
     }
 }
