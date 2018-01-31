@@ -1,6 +1,6 @@
 {
   "name": "auto-open-chrome",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "auto open chrome",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/thx/auto-open-chrome/issues"
   },
   "homepage": "https://github.com/thx/auto-open-chrome#readme",
-  "devDependencies": {
+  "dependencies": {
     "opn": "^5.2.0"
   }
 }
